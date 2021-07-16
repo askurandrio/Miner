@@ -120,6 +120,11 @@ public class Main {
         }
     }
 
+    public static void game(String[][] f){
+        java.util.Scanner in = new java.util.Scanner(System.in);
+        System.out.println("Enter cell number (x,y (separated by commas))");
+        String cell = in.nextLine();
+    }
 
     public static void outputField(String[][] f){
         for(int i = 0; i < f.length; i++){
@@ -146,9 +151,3 @@ public class Main {
         System.out.println();
     }
 }
-
-    /*public static void game(String[][] f){
-        java.util.Scanner in = new java.util.Scanner(System.in);
-        System.out.println("Enter cell number (x,y (separated by commas))");
-        String cell = in.nextLine();
-    }*/
